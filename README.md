@@ -12,6 +12,8 @@ The new maps use 10% cash Earnings Tax, $75 Premium Tax, and $50 Tax Refund wher
 
 Play on one device with six people, or enable computer opponents in Game settings. Progress is saved in this browser. Table chat is local to this device. Networked multiplayer is not included.
 
+Game settings lets you edit player names and choose one of eight colors. Each owner must use a different color. Free-for-all colors belong to players; team colors are shared by teammates. Choices survive reloads and new games in the same mode. Solid tabs along the board's inner edge show ownership, with symbols matching the player/team cards; round letter tokens show player locations. Sharing the website URL does not create a shared online room.
+
 ## Hosting
 
 A static website: no framework, build step, backend, or sign-in required. GitHub Pages serves the main branch root. All assets and fonts are self-hosted; fonts are provided under the licenses in assets/fonts.
