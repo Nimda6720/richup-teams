@@ -39,4 +39,3 @@ run("localStorage.getItem=()=>JSON.stringify({...newGame('teams','classic'),vers
 fresh('solo','world');
 run("document.getElementById=()=>({classList:{add(){},remove(){}}});Math.random=()=>0;active().pos=47;");
 (async()=>{await run('roll()');assert.equal(run('active().pos'),1);assert.equal(run('team().cash'),1700);assert.equal(run('game.phase'),'buy');console.log('Passed: all maps/modes, coordinates, buying/rent, elimination, victory, building, utilities, taxes/refund, save migration, and 48-space wraparound.');})().catch(e=>{console.error(e);process.exitCode=1});
-
