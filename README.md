@@ -24,4 +24,4 @@ Run gameplay regression checks with `node game.test.cjs`. No dependencies or bui
 
 ## Online multiplayer
 
-The `online/` directory contains the hosted multiplayer version: invite rooms, 2–6 player free-for-all, six-player teams, shared chat, server-validated moves, reconnecting and trade consent. It runs on Sites with a Cloudflare Worker and D1, rather than GitHub Pages. See `online/README.md` for setup and room behavior. Public friend access requires the owner to enable the hosting audience; the GitHub Pages root remains the local game.
+The `online/` directory contains the hosted multiplayer version: invite rooms, 2–6 player free-for-all, six-player teams, shared chat, server-validated moves, reconnecting and trade consent. It runs on Sites with a Cloudflare Worker and D1, rather than GitHub Pages. See `online/README.md` for setup and room behavior. The online game is public at https://richup-friends-nimda.almondmonad1.chatgpt.site/. The GitHub Pages root links to it and retains the local game.
